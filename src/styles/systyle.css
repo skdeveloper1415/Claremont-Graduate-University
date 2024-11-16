@@ -1,0 +1,137 @@
+.p-sidebar-right .viewuserspopup.p-sidebar { width: 94%;}
+.custTable.p-treetable .p-treetable-thead tr th  {
+    position: relative;
+}
+.custTable.p-treetable .p-sortable-column-icon {
+    position: absolute;
+    right: 10px;
+}
+.dark .custom_search .p-inputtext 
+{
+    color: #818181;
+    background-color: #13161B !important;
+    border-color: #374151 !important;
+}
+/********** table****************/
+.dark .custTable.p-datatable .p-datatable-thead>tr>th 
+{
+    background: #0C0E12;
+    border-color: #1F2A37;
+    color:#fff;
+}
+.dark .custTable.p-datatable .p-datatable-thead .pi
+{
+    color:#AAA;
+}
+.dark .p-datatable .p-datatable-tbody > tr
+{
+    background: #13161B;
+    border-color:#1F2A37;
+    color:#AAAAAA
+}
+.dark .custTable.p-datatable .p-datatable-tbody>tr>td 
+{
+    color:#AAAAAA;
+    border-color: #1F2A37;
+}
+.dark .custTable.p-datatable .p-datatable-tbody>tr:nth-child(even)
+{
+    background: #1C2026;
+}
+.dark .custTable.p-datatable.p-datatable-selectable .p-datatable-tbody > tr.p-selectable-row:not(.p-highlight):not(.p-datatable-emptymessage):hover 
+{
+    background: #191A1E;
+    color: #AAAAAA;
+}
+.dark .p-datatable .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover {
+    background: #191A1E;
+    color: #AAAAAA;
+} 
+.dark .custTable .p-datatable-thead .p-checkbox .p-checkbox-box, .dark .custTable .p-datatable-tbody .p-checkbox .p-checkbox-box
+{
+    border: 1px solid #4B5563;
+    background: #13161B;
+}
+.dark .p-paginator {
+    background: #13161B;
+    color: #6c757d;
+}
+.dark .custTable .p-paginator .p-dropdown ,.dark .custTable .p-dropdown .p-dropdown-label
+{
+    background: #1C2026;
+    border-color: #374151;
+}
+.dark .custTable .p-dropdown .p-dropdown-trigger {
+    background: #1C2026;
+    color: #aaa;
+    border-color: #374151;
+}
+.dark .tableCust .p-paginator .p-paginator-first, .dark .tableCust .p-paginator .p-paginator-prev, .dark .tableCust .p-paginator .p-paginator-next, .dark .tableCust .p-paginator .p-paginator-last, .dark .tableCust .p-paginator .p-paginator-pages .p-paginator-page
+{
+    border: 1px solid #374151;
+}
+.dark .tableCust .p-paginator .p-paginator-pages .p-paginator-page.p-highlight 
+{
+    background-color: #1C2026;
+    color: #fff;
+}
+.dark .tableCust .p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover, .dark .tableCust .p-paginator .p-paginator-first:not(.p-disabled):not(.p-highlight):hover, .dark .tableCust .p-paginator .p-paginator-prev:not(.p-disabled):not(.p-highlight):hover, .dark .tableCust .p-paginator .p-paginator-next:not(.p-disabled):not(.p-highlight):hover, .dark .tableCust .p-paginator .p-paginator-last:not(.p-disabled):not(.p-highlight):hover
+{
+    background: #1C2026;
+    color: #aaa;
+    border-color: #374151;
+}
+.dark .custTable.p-datatable .p-paginator-bottom 
+{
+    border-color: #374151;
+}
+
+/********** table****************/
+.dark .custInput .p-inputtext
+{
+    background: #13161B;
+    border-color: #1F2A37 !important;
+}
+.dark .popupForm.inputlabel label
+{
+    color:#fff;
+}
+.dark .p-treetable .p-treetable-tbody > tr > td
+{
+    border-color: #1F2A37;
+}
+.dark .p-treetable .p-treetable-thead > tr > th
+{
+    background-color: #0C0E12;
+    color:#fff;
+    border-color: #1F2A37;  
+}
+.dark .p-treetable .p-sortable-column .p-sortable-column-icon 
+{
+    color:#AAAAAA;
+}
+.dark .p-treetable .p-treetable-tbody > tr 
+{
+    background-color: #13161B;
+    border-color: #1F2A37;
+    color: #fff;
+}
+.dark .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler 
+{
+    color: #fff;
+}
+.dark .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:enabled:hover 
+{
+    background-color: #1c2126;
+    color:#fff;
+}
+.dark .p-treetable .p-sortable-column:not(.p-highlight):hover 
+{
+    background-color: #1c2126;
+    color: #fff;
+}
+.dark .loginInput .p-inputtext {
+    border: 1px solid #1F2A37;
+    background: #13161B;
+}
+

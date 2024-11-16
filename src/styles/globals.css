@@ -1,0 +1,328 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* sidebar width */
+.p-sidebar-right .widthOne.p-sidebar {
+    width: 100%;
+    max-width: 72.917vw;
+}
+
+.custmSidebar .PersonalDetails {
+    height: calc(100vh - 270px);
+}
+.custmSidebar .PersonalDetails.rubicsDetails {
+    height: calc(100vh - 100px);
+}
+
+.p-button:focus {
+    box-shadow: none !important;
+}
+
+*.custmSidebar :focus-visible {
+    outline: none;
+}
+
+.false .notes {
+    display: block;
+}
+
+.false .view-notes {
+    display: none;
+}
+
+.true .view-notes {
+    display: block;
+}
+
+.true .notes {
+    display: none;
+}
+
+.true .activeBg {
+    background: #AF1E27;
+    color: white;
+}
+
+/* custom sidebar */
+.custmSidebar.p-sidebar .p-sidebar-content {
+    padding: 0;
+}
+
+.custmSidebar.p-sidebar .p-sidebar-header {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.custmSidebar.p-sidebar .p-sidebar-header .p-sidebar-close,
+.p-sidebar .p-sidebar-header .p-sidebar-icon {
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.05), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+    border-radius: 0;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+}
+
+.custmSidebar .react-tabs {
+    height: 100%;
+}
+
+.custmSidebar .pi-times:before {
+    content: "\e911";
+    font-family: 'cgupod';
+    font-size: 22px;
+    color: #424242;
+}
+
+.custmSidebar .p-scrollpanel-content {
+    padding: 0 15px 15px 0;
+}
+
+.custmSidebar .react-tabs__tab {
+    cursor: pointer;
+}
+.contempt-sidebar .p-sidebar-content {
+    /* overflow: hidden; */
+}
+.contempt-sidebar .p-scrollpanel-content {
+    /* height: 50%; */
+}
+/* custom tabs */
+.customTabs .react-tabs__tab-list {
+    display: flex;
+}
+
+.customTabs .react-tabs__tab {
+    color: #AF1E27;
+    border: 1px solid #AF1E27;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.customTabs .react-tabs__tab:not(:last-child) {
+    margin-right: 8px;
+}
+
+.customTabs .react-tabs__tab.react-tabs__tab--selected {
+    background: #AF1E27;
+    color: white;
+}
+
+/* popup tabs */
+.popupTabs .react-tabs__tab-list {
+    padding-top: 40px;
+    position: relative;
+}
+
+.popupTabs .react-tabs__tab-list:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 97%;
+    background-color: white;
+}
+
+.popupTabs .react-tabs__tab {
+    background-color: white;
+    margin-bottom: 40px;
+    margin-left: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    max-width: 277px;
+    font-size: 16px;
+    position: relative;
+}
+
+.popupTabs .react-tabs__tab.react-tabs__tab--selected {
+    background-color: #4E456D;
+    color: white;
+}
+
+.popupTabs .react-tabs__tab:before {
+    content: "";
+    position: absolute;
+    left: -23px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 11px;
+    height: 11px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.popupTabs .react-tabs__tab.react-tabs__tab--selected:before {
+    background-color: #4E456D;
+}
+
+/* popup form */
+.popupForm {
+    padding: 0;
+}
+
+.popupForm.inputlabel label {
+    font-size: 14px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.popupForm .p-inputtext {
+    padding: 10px 16px;
+    border-color: #EAE0E0;
+    border-radius: 8px;
+    color: #888888;
+    font-size: 14px;
+}
+
+.popupForm .p-inputtext:enabled:hover,
+.popupForm .p-dropdown:not(.p-disabled):hover {
+    border-color: #4E456D;
+}
+
+.popupForm .p-dropdown {
+    border-color: #EAE0E0;
+}
+
+.popupForm .p-inputtext:enabled:focus,
+.popupForm .p-dropdown:not(.p-disabled).p-focus {
+    border-color: #4E456D;
+    box-shadow: none;
+}
+
+.popupForm .pi-chevron-down:before {
+    color: #888888;
+}
+
+/* custom radiobutton */
+.custRadioButton .p-radiobutton .p-radiobutton-box {
+    border: 0.052vw solid #DDE1EA;
+    width: 16px;
+    height: 16px;
+}
+
+.custRadioButton .p-radiobutton .p-radiobutton-box .p-radiobutton-icon {
+    width: 0.313vw;
+    height: 0.313vw;
+    background: #AF1E27;
+}
+
+.custRadioButton .p-radiobutton .p-radiobutton-box.p-highlight {
+    background: transparent;
+    border-color: #AF1E27;
+}
+
+.custRadioButton .p-radiobutton {
+    width: 16px;
+    height: 16px;
+}
+
+.custRadioButton .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
+    background: transparent;
+    border-color: #AF1E27;
+}
+
+.custRadioButton .p-radiobutton .p-radiobutton-box:not(.p-disabled).p-focus {
+    box-shadow: none;
+}
+
+.custRadioButton .p-radiobutton .p-radiobutton-box:not(.p-disabled):not(.p-highlight):hover {
+    border-color: #AF1E27;
+}
+
+/* calendar */
+.popupForm .p-calendar .p-button.p-button-icon-only {
+    padding: 0;
+    width: fit-content;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+}
+
+.popupForm .p-calendar .p-button:enabled:hover,
+.popupForm .p-calendar .p-button:not(button):not(a):not(.p-disabled):hover {
+    background: transparent;
+}
+
+.popupForm .p-calendar .pi-calendar:before {
+    content: "\e90a";
+    font-family: 'cgupod';
+    font-size: 18px;
+    color: #424242;
+}
+
+.custmSidebar .competency-wrap .p-scrollpanel-content {
+    padding: 0;
+}
+
+/* popup form End */
+
+
+/* accordian style */
+.competency-accordion {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.competency-accordion .p-accordion-header .p-accordion-header-link {
+    border-radius: 8px !important;
+    border: 1px solid #F2EEEE !important;
+    background: #FFF !important;
+
+    /* Shadows/shadow-sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* Dashboard cards */
+.info-card .icon {
+    max-width: 50px;
+}
+
+.custmHeight {  height: calc(100vh - 300px); }
+.custmHeight.p-scrollpanel .p-scrollpanel-bar { background-color: #13161B; }
+
+/* dark mode */
+.dark .popupTabs .react-tabs__tab.react-tabs__tab--selected { background-color: #AF1E27; color: white; }
+.dark .popupTabs .react-tabs__tab { background-color: #1F2631; color: #AAAAAA; }
+.dark .popupTabs .react-tabs__tab.react-tabs__tab--selected:before { background-color: #AF1E27; }
+.dark .popupTabs .react-tabs__tab:before { background-color: #1F2631; }
+.dark .popupTabs .react-tabs__tab-list:before { background-color: #374151; }
+.dark .popupForm.inputlabel label { color: white; }
+.dark  .custRadioButton label { color: #AAAAAA !important; }
+.dark .popupForm .p-calendar .pi-calendar:before { color: #818181; }
+.dark .custRadioButton .p-radiobutton .p-radiobutton-box, .dark .custRadioButton .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover { background: white; }
+.dark .custRadioButton .p-radiobutton .p-radiobutton-box .p-radiobutton-icon { background: #AF1E27; }
+.dark .true .activeBg { background: #F5747C; color: white; }
+.dark .customTabs .react-tabs__tab { color: #EC4751; border-color: #EC4751; }
+.dark .customTabs .react-tabs__tab.react-tabs__tab--selected { border-color: #EC4751; color: white; }
+.dark .swiper-button-next:after, .dark .swiper-button-prev:after {  background-color: #1F2A37; color: white; }
+
+
+
+/***********************************************
+            Responsive
+***********************************************/
+
+
+@media (min-width:1700px) {}
+
+@media (max-width:1366px) {}
+
+@media (max-width:1280px) {}
+
+
+@media (max-width:1024px) {}
+
+@media (max-width:991px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:680px) {}

@@ -1,0 +1,143 @@
+.quickSearchContainer {
+  position: relative;
+  display: inline-block;
+}
+.quickSearchContainer .quickSearchText {
+  display: none; /* Hide the text by default */
+  position: absolute;
+  top: 20%;
+  right: 40%;
+  transform: translate(-50%, -50%);
+}
+.quickSearchContainer:hover .quickSearchText {
+  display: inline; /* Show the text on hover */
+}
+.placementSearch .p-inputtext {
+  padding: 0.1rem 0.1rem;
+}
+.action-shadow-table {
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+}
+.csjPodPanel .p-overlaypanel-content {
+  padding: 0rem 0rem;
+}
+.custInput .p-dropdown:not(.p-disabled):hover {
+    box-shadow: none;
+    border-color: #AF1E27;
+}
+.custInput .p-inputtext:enabled:hover  {
+  border-color: #AF1E27 !important;
+}
+
+.custInput .p-inputtext { padding: 10px 12px; border-color: #EAE0E0; border-radius: 8px; color: #888888; font-size: 14px; }
+
+.custInput .pi-chevron-down:before { color: #888888; }
+.custDropdown .p-inputtext { padding: 10px 16px; border-color: #EAE0E0; color: #888888; font-size: 14px; }
+.custmSidebar .SidebarHeight { height: calc(100vh - 238px); }
+.csjpodSidebar .react-tabs__tab-list{
+  margin-left: 6px;
+}
+
+@media (min-width:1280px){
+  .custInput .p-inputtext {
+      font-size: 0.729vw;
+      padding: 0.521vw 0.625vw;
+  }
+}
+.p-sidebar-right .studentDetails.p-sidebar { width: 100%; max-width: 93.917vw; }
+.p-radiobutton .p-radiobutton-box{
+  color: #FFFAFB;
+  width: 15px;
+  height: 15px;
+}
+.p-radiobutton .p-radiobutton-box:not(.p-disabled):not(.p-highlight):hover {
+  border-color: #AF1E27;
+}
+.programBtn .p-radiobutton .p-radiobutton-box:not(.p-disabled).p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.1rem #EAE0E0;
+  border-color: #AF1E27;
+}
+.p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover{
+  border-color: #AF1E27;
+  background: #AF1E27;
+}
+.programBtn .p-radiobutton .p-radiobutton-box.p-highlight {
+  border-color: #EAE0E0;
+  background: #FFFAFB;
+}
+.qualificationTabpanel .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: #fcf5f6;
+  border-color: #AF1E27;
+  color: #AF1E27;
+}
+.qualificationTabpanel .p-tabview .p-tabview-nav .p-tabview-ink-bar{
+  background-color: #AF1E27;
+}
+.qualificationTabpanel .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus{
+  box-shadow: inset 0 0 0 0 #fcf5f6;
+}
+.qualificationTabpanel .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+  background-color: #fcf5f6;
+}
+.qualificationTabpanel  .p-tabview .p-tabview-panels {
+  background-color: #fcf5f6;
+}
+.qualificationTabpanel  .p-tabview-title{
+  font-size: 0.729vw;
+}
+.qualificationTabpanel .p-tabview .p-tabview-nav{
+  background-color: #fcf5f6;
+}
+.qualificationTabpanel .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+  border-color: #F2EEEE;
+}
+.checkboxName.p-datatable .p-column-header-content{
+  gap: 5px ;
+}
+.checkboxName.p-datatable .p-datatable-header {
+  background: #fff;
+  color: #262626;
+  border: 1px solid #dee2e6;
+  border-width: 1px 0 1px 0;
+  font-weight: 500;
+  border-radius: 10px 10px 1px 2px ; 
+  padding: 10px 0px 10px 0px;
+}
+.swiper-button-prev:after {
+  background-color: #fff;
+  height: 15.5vw;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 8px;
+  position: relative;
+  font-size: 15px !important;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 100px 0 rgba(0, 0, 0, 0.19);
+  left: -13px;
+}
+.swiper-button-next:after {
+  background-color: #fff;
+  height: 15.5vw;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 8px;
+  position: relative;
+  font-size: 15px !important;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 100px 0 rgba(0, 0, 0, 0.19);
+  right: -13px;
+}
+
+/* midtermcompetencyReport start */
+
+/* first part start */
+
+.dark .darkmodecolor{
+  background-color: #0C0E12;
+  color: #fff;
+}
+
+/* first part end */
+/* midtermcompetencyReport end */

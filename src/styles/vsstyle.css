@@ -1,0 +1,217 @@
+.popupTabs.p-scrollpanel .p-scrollpanel-bar{
+	background-color: #d1d1d1;
+}
+.popupTabs .react-tabs__tab-list{
+	padding-left: 6px;
+}
+.popupTabs .react-tabs__tab-list:before{
+	left: 6px;
+}
+.popup-right-scroll{
+	/* height: 100vh; */
+    /* overflow-y: auto; */
+}
+.custmSidebar .popup-right-scroll .p-scrollpanel-content { 
+	width: calc(100% + 30px);	
+	height: calc(100% + 30px);	
+}
+.custmSidebar .popup-right-scroll .p-scrollpanel-bar{
+	background-color: #c1c1c1;
+}
+.custmSidebar .postobview {
+    height: calc(100vh - 240px);
+}
+
+.react-tabs__tab--selected{ outline: none;}
+
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled{ display: none;}
+
+/* Login start */
+.custPassword .p-password .p-inputtext {
+    width: 100%;
+	
+}
+
+.loginInput .p-inputtext {
+    border: 1px solid #EAE0E0;
+    background: #FFFAFB;
+}
+
+.loginInput .p-inputtext:enabled:hover {
+    border-color: #AF1E27;
+}
+
+.loginInput .p-inputtext:enabled:focus {
+    box-shadow: none;
+    border-color: #AF1E27;
+}
+.loginInput .p-checkbox .p-checkbox-box{
+	border-width: 0.5px;
+	border-color: #EAE0E0;
+	background: #FFFAFB;
+}
+.loginInput .p-checkbox .p-checkbox-box.p-highlight, .loginInput .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover{
+	background: #AF1E27;
+	border-color: #AF1E27;
+}
+.loginInput .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover{
+	border-color: #AF1E27;
+}
+
+.login-wrap-bg {
+    background-image: url(/assets/images/login_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+    height: 100vh;
+}
+.dark .login-wrap-bg {
+    background-image: url(/assets/images/login_bg_dark.png);
+  
+}
+
+/* login page end  */
+
+.p-overlaypanel:after, .p-overlaypanel:before{ visibility: hidden;} /* Hide tooltip arrow */
+
+/* Summary start */
+	/* Tiles Overlay */
+.tiles-overlay{
+	width: 290px;
+}	
+.tiles-overlay.p-overlaypanel .p-overlaypanel-content{
+	padding: 16px;
+}
+.radio-row .p-radiobutton{
+	height: 16px;
+}
+.p-radiobutton .p-radiobutton-box .p-radiobutton-icon{
+	height: 8px;
+	width: 8px
+}
+.radio-row .p-radiobutton .p-radiobutton-box.p-highlight{
+	border-color: #AF1E27;
+    background: #AF1E27;
+}
+.radio-row .p-radiobutton .p-radiobutton-box{
+	width:16px;
+	height: 16px;
+}
+.radio-row label{
+	color: #363A44;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+	/* Remove Tabs nav */
+.remove_tabsnav .p-tabview-nav-container{
+	display: none;
+}
+.remove_tabsnav .p-tabview-panels{
+	padding: 0;
+}
+
+
+.tiles-scroll .p-scrollpanel-bar-x{
+	opacity: 1;
+	background: #9ED7A2;
+	height: 3px;
+}
+.tiles-scroll .p-scrollpanel-bar-x:hover{
+	background: #AF1E27;
+}
+.tiles-scroll .p-scrollpanel-bar-y{
+	display: none;
+}
+.tiles-scroll .p-scrollpanel-content{
+	overflow-y: hidden;
+}
+/* Summary End */
+
+/* Dark mode */
+.dark .custDropdown .p-multiselect .p-multiselect-label{
+	color: #FFF;
+}
+
+.dark .custom-multiselect-panel{
+	background-color: #191A1E;
+}
+.dark .custom-multiselect-panel .p-checkbox .p-checkbox-box{
+	border-color: #202227;
+    background-color: #272F31;
+}
+.dark .custom-multiselect-panel .p-multiselect-items .p-multiselect-item{
+	color: #fff;
+}
+.dark .custom-multiselect-panel .p-multiselect-items .p-multiselect-item:not(.p-highlight):not(.p-disabled):hover{
+	color: #fff;
+}
+.dark .p-dropdown-panel{
+	background: #191A1E;
+}
+.dark .p-tabview .p-tabview-panels{
+	background-color: #191A1E;
+}
+
+.dark .tiles-scroll::-webkit-scrollbar{
+    height: 3px;
+    width: 3px;
+    background: #202227;
+}
+.dark .tiles-scroll:-moz-scrollbar{
+    height: 3px;
+    width: 3px;
+    background: #202227;
+}
+	/* Track */
+.dark .tiles-scroll::-webkit-scrollbar-track{
+  background: #202227; 
+}
+.dark .tiles-scroll:-moz-scrollbar-track {
+  background: #202227; 
+}
+	/* Handle */
+.dark .tiles-scroll::-webkit-scrollbar-thumb{
+  background: #202227; 
+}
+.dark .tiles-scroll:-moz-scrollbar-thumb {
+  background: #202227; 
+}
+	/* Handle on hover */
+.dark .tiles-scroll::-webkit-scrollbar-thumb:hover{
+  background: #202227; 
+}
+.dark .tiles-scroll:-moz-scrollbar-thumb:hover {
+  background: #202227; 
+}
+.dark .tiles-scroll::-webkit-scrollbar-thumb:horizontal{
+    background: #2D6831;
+    border-radius: 10px;
+}
+.dark .tiles-scroll:-moz-scrollbar-thumb:horizontal{
+    background: #2D6831;
+    border-radius: 10px;
+}
+.dark .tiles-scroll::-webkit-scrollbar-thumb:horizontal:hover{
+	background: #AF1E27;
+}
+.dark .tiles-scroll:-moz-scrollbar-thumb:horizontal:hover{
+	background: #AF1E27;
+}
+
+	/* overlaypanel */
+.dark .p-overlaypanel{
+	background: #191A1E;
+	color: #fff;
+}
+.dark .radio-row label{
+	color: #fff;
+}
+.dark .p-radiobutton .p-radiobutton-box{
+	background: #272F31;
+	border-color: #272F31;
+}
+.dark .p-radiobutton .p-radiobutton-box .p-radiobutton-icon{
+	background: #272F31;
+}
+/* Dark mode end */
